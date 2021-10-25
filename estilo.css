@@ -13,20 +13,36 @@ section{
     background-color: #f76d63b6;
     border-radius: 10px;
     padding: 15px;
-    width: 800px;
+    width: 600px;
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.548)
 }
 
-#numeroescolha{
-    margin-top: 5px;
-
+#texttop{
+    color: rgb(175, 6, 6);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 
-#textoinput{
-    padding: 15px;
-    font-weight: bold;
-    font-size: 1em;
+#numeroescolha{
+    display: flex;
+    flex-direction: row;
+}
+
+#numero{
+    margin-left: 15px;
+    width: 110px;
+    border-radius: 5px;
+    border: none;
+}
+
+#adicionar{
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: red;
 }
 
 #adicionados{
@@ -39,8 +55,28 @@ section{
     margin-left: 10px;
 }
 
+#respostafinal{
+    text-align: center;
+    margin: auto;
+}
+
 #textoFinalizar{
     font-size: 1em;
+    font-weight: bold;
+}
+
+#finalizar{
+    background-color: rgba(0, 128, 0, 0.767);
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+#limpar{
+    background-color: rgba(0, 0, 255, 0.76);
+    border-radius: 5px;
+    padding: 5px;
     font-weight: bold;
 }
 
