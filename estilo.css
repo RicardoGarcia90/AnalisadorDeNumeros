@@ -19,7 +19,7 @@ section{
 }
 
 #texttop{
-    color: rgb(175, 6, 6);
+    color: rgb(139, 6, 6);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
@@ -62,7 +62,6 @@ section{
 
 #textoFinalizar{
     font-size: 1em;
-    font-weight: bold;
 }
 
 #finalizar{
@@ -81,7 +80,8 @@ section{
 }
 
 footer{
-    color: white;
+    color: black;
     text-align: center;
     font-style: italic;
+    padding: 5px;
 }
