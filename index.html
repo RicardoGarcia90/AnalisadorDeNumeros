@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Números</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Analisador de Números</h1>
+    </header>
+    <section>
+        <div id="numeroescolha">
+            <label id="textoinput" for="numero">Escolha números de 1 a 100 e clique em Adicionar</label> <input type="number" id="numero"> <input type="button" value="Adicionar" id="adicionar" onclick="adicionar()">
+        </div>
+        <div id="adicionados">
+            <select id="valoradicionado" style="display: block; width: 180px;" size="10" ></select>
+            <p id="respostafinal"></p>
+        </div>
+        <input type="button" value="Finalizar" id="finalizar" onclick="finalizar()">
+        <p id="textoFinalizar">Clique em finalizar para ver o resultado</p>
+    </section>
+    <footer>
+        <p>&copy; RicardoGarcia</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
