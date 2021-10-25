@@ -1,6 +1,9 @@
+'user strict'
+
 let num = document.getElementById('numero')
 let val = document.getElementById('valoradicionado')
 let res = document.getElementById('respostafinal')
+let textfinal = document.getElementById('textoFinalizar')
 let valores = []
 
 function isNumero(n){
@@ -59,5 +62,17 @@ function finalizar(){
         res.innerHTML += `<p>O menor valor é ${menor}.</p>`
         res.innerHTML += `<p>A soma dos valores adicionados é ${soma}</p>`
         res.innerHTML += `<p>A média dos valores adicionados é ${media}</p>`
+        textfinal.innerHTML = ''
     }
-}    
+}
+
+function limpar(){
+    if (valores.length != 0){
+        document.getElementById('adicionados').value=''
+        res.innerHTML = ''
+        valores.length = 0
+        item.text = ''
+    } 
+}
+
+limpar();
